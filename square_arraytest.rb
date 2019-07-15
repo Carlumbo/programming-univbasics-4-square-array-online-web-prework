@@ -1,6 +1,7 @@
 numbers = [1,2,3]
 
 def square_array(array)
+<<<<<<< HEAD
   counter = 0 
   new_array = []
   while counter < array.length do
@@ -15,3 +16,15 @@ def square_array(array)
 end 
 square_array(numbers)
 
+=======
+  counter = 0
+  while counter < array.length do
+    new_array = []
+    new_array << array[counter]
+ counter +=1
+ end 
+ new_array
+end 
+square_array
+numbers
+>>>>>>> 88fe6c09a77b475d0a198517dd82bf3dd05d893d
